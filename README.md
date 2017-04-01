@@ -6,7 +6,7 @@ Simple timeline with data model.
 Example
 ------------
 
-Use the delegate callbacks to receive information about the bubble that the user selected.
+Use this example to create 10 sequential events with random dates. Add each model to your `timeLineData` array and then reload the tableView!
 
 ```objc
 for ( NSInteger i = 0; i < 10; i++ )
@@ -19,7 +19,6 @@ for ( NSInteger i = 0; i < 10; i++ )
     model.content = [self randomString:i];
     [self.timelineData addObject:model];
 }
-/// Reload the tableView!
 ```
 
 @WrightsCS
